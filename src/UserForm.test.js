@@ -15,3 +15,10 @@ test('it shows two inputs and a button', () => {
 
 
 })
+
+test('it allows users to create a user', () => {
+  const onUserAdd = jest.fn()
+  render(<UserForm onUserAdd={onUserAdd}/>)
+  
+  
+})
